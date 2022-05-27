@@ -1,0 +1,74 @@
+:root{
+    --text: #F6F8FF;
+    --dark: #29335C;
+    --btn: #6f8ab7;
+    --accent: #709775;
+    --bg: #415d1c;
+    --gray: rgb(120, 120, 120);
+}
+
+.navbar {
+    background-color: var(--dark);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 80%;
+    justify-content: end;
+    margin-right: 2rem;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 10px;
+}
+.nav-item:hover {
+    border: solid 1px var(--btn);
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+
+.nav-link {
+    color: var(--text);
+    font-size: 1.2rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logout-btn{
+    background-color: var(--dark);
+    border: solid 2px var(--text);
+    color: var(--text);
+    font-weight: bold;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.logout-btn:hover{
+    background-color: var(--btn);
+    transition: 0.5s;
+}

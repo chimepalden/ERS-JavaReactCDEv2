@@ -1,0 +1,21 @@
+:root{
+    --bg: #F6F8FF;
+    --dark: #29335C;
+    --btn: #6f8ab7;
+    --accent: #709775;
+    --accent2: #415d1c;
+    --gray: rgb(150, 150, 150);
+}
+
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: var(--gray);
+    margin: 0;
+}

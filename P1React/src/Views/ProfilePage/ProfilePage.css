@@ -1,0 +1,23 @@
+:root{
+    --text: #F6F8FF;
+    --dark: #29335C;
+    --btn: #6f8ab7;
+    --accent: #709775;
+    --bg: #415d1c;
+    --gray: rgb(120, 120, 120);
+}
+
+
+.profile-container {
+    
+    padding: 2rem;
+    border: solid 2px var(--text);
+    border-radius: 10px;
+    width: 20rem;
+    height: 31rem;
+    margin: 5% auto;
+    background-color: var(--btn);
+    color: var(--text);
+
+
+}

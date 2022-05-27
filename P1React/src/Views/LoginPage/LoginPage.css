@@ -1,0 +1,23 @@
+:root{
+    --text: #F6F8FF;
+    --dark: #29335C;
+    --btn: #6f8ab7;
+    --accent: #709775;
+    --bg: #415d1c;
+}
+
+.login-page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-error {
+    color: var(--accent);
+    margin-bottom: 10px;
+  }
+
+

@@ -1,0 +1,17 @@
+:root{
+    --text: #F6F8FF;
+    --dark: #29335C;
+    --btn: #6f8ab7;
+    --accent: #709775;
+    --bg: #415d1c;
+    --gray: rgb(120, 120, 120);
+}
+
+.user-container {
+    display: flex;
+    background-color: var(--light-gray);
+    color: var(--dark);
+    align-items: center;
+    padding: 10px;
+    border: 1px solid var(--btn);
+}

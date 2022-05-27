@@ -1,0 +1,30 @@
+:root{
+    --text: #F6F8FF;
+    --dark: #29335C;
+    --btn: #6f8ab7;
+    --accent: #709775;
+    --bg: #415d1c;
+    --gray: rgb(150, 150, 150);
+    --light-gray: rgb(185, 185, 185);
+}
+
+.reimbursement {
+    display: flex;
+    background-color: var(--light-gray);
+    color: var(--dark);
+    align-items: center;
+    padding: 10px;
+    border: 1px solid var(--btn);
+    border-radius: 10px;
+    
+}
+
+.reimbursement .actions {
+    position: absolute;
+    right: 6%;
+    border-radius: 20px;
+  
+}
+.actions .approve-btn{
+    margin-right: 5px;
+}

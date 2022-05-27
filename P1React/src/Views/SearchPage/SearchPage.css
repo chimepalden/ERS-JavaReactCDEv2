@@ -1,0 +1,18 @@
+:root{
+    --text: #F6F8FF;
+    --dark: #29335C;
+    --btn: #6f8ab7;
+    --accent: #709775;
+    --bg: #415d1c;
+    --gray: rgb(120, 120, 120);
+}
+
+.user-list {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+h1{
+   
+   text-align: center;
+    color: var(--dark);
+}
