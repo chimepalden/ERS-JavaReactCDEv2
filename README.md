@@ -1,4 +1,4 @@
-# Project-One-Full
+# Employee Reimbursement System-JavaReactCDEv2
 
 In this Project we made a Full Stack React and Java application that handles Employee Reimbursements at a generic company. Our front end was made with React with TypeScript and our back end was made on Java 8.
 
